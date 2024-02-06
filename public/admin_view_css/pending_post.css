@@ -1,0 +1,158 @@
+h1 {
+    color:#430037;
+    font-family: "Calibri", sans-serif;
+    font-weight: bolder;
+    font-size: 300%;
+    letter-spacing: 10px;
+}
+
+
+
+.head {
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+}
+
+
+.big_box {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_align {
+    font-family: "Roboto Mono", serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 50px;
+    width: 1080px;
+    height: 670px;
+    padding: 30px 20px;
+    color: #050404;
+    box-shadow: #6b0058 2px 2px 2px;
+}
+
+.image-cont {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+    overflow: hidden;
+    padding-left: 100px;
+}
+
+.small-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block; /* Removes any extra spacing around the image */
+    position: absolute;
+}
+
+
+.grid-container {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color: #F1E9EF;
+    width: 100%;
+    height: 10%;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+
+.edit {
+    background-color: #FFB7F1;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 3px 25px 3px 25px;
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 2px #342531;
+    height: 3%;
+
+}
+
+
+.edit:hover {
+    transition: 0.2s ease-in;
+    background-color:#ff6de3;
+}
+
+
+.delete {
+    background-color: #430037;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    padding: 3px 25px 3px 25px;
+    font-family: "Calibri", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 2px #342531;
+    margin-left: 20px;
+    height: 3%;
+
+}
+
+.delete:hover {
+    transition: 0.2s ease-in;
+    background-color:#6b0058;
+}
+button {
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+.activeted {
+    display: block;
+}
+
+.pow_button {
+    position: relative;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 280px;
+    padding: 0px 15px 4px 15px;
+    font-family: "Roboto Mono", serif;
+    font-size: 35px;
+    background-color: #ff9cea;
+    border-color: #ff49dc;
+}
+
+.pow_button:hover {
+    transition: 0.2s ease-in;
+    background-color: #8a1273;
+}
+
+
+.adminView {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Calibri", sans-serif;
+    letter-spacing: 2px;
+    text-shadow: #665964 2px 2px 2px;
+    margin-top: 10px;
+    margin-left: 6px;
+}

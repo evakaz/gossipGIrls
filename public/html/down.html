@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sail">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+    <meta charset="UTF-8">
+    <title>Success!</title>
+    <link rel="stylesheet" href="../css/styletemplate.css">
+    <style>
+        #txt {
+            font-family: "Roboto Mono", serif;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 4px;
+            text-align: center;
+            padding: 65px;
+        }
+        .imageBtn {
+            padding-bottom: 10px;
+            font-size: x-large;
+            font-family: "Roboto Mono", serif;
+        }
+
+        .imageBtn {
+            background: linear-gradient(to bottom right, #cb04a5, #680091);
+            border: 0;
+            border-radius: 12px;
+            color: #FFFFFF;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 2.5;
+            outline: transparent;
+            padding: 0 1rem;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            /*margin: 0;*/
+            /*position: absolute;*/
+            /*top: 50%;*/
+            /*-ms-transform: translateY(-50%);*/
+            /*transform: translateY(-50%);*/
+        }
+
+
+        .imageBtn button:not([disabled]):focus {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgb(178, 2, 145), .125rem .125rem 1rem rgb(94, 1, 129);
+        }
+
+        .imageBtn button:not([disabled]):hover {
+            box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgb(178, 2, 145), .125rem .125rem 1rem rgb(94, 1, 129);
+        }
+
+        .test {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<div class="topnav">
+    <div class="topnavleft">
+        <img class="logo" src="../images/ago_logo.png" alt="Logo">
+        <form>
+            <button class="button post" formaction="post.html">POST</button>
+        </form>
+    </div>
+    <div class="topnavright">
+        <a class="header" href="feed.html">FEED</a> <!-- class active sellele, mis lehel oled (v.a post v login) -->
+        <a class="header" href="pow.html">POW</a> <!-- ja href=#home lehele, kus oled -->
+        <a class="header" href="map.html">MAP</a>
+        <form>
+            <button class="button login" formaction="login.html">Login</button>
+        </form>
+    </div>
+</div>
+<div>
+    <p id="txt">Thanks for your gossip!</p><br>
+    <div class="test">
+        <a href="feed.html"><button class="imageBtn">Go to Feed</button></a>
+        <img class="gif" src="../images/mumps.gif" alt=""><br>
+    </div>
+</div>
+</body>
+</html>

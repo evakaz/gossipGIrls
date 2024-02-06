@@ -1,0 +1,24 @@
+.mapdiv {
+    padding: 3% 5% 3% 5%;
+    height: 800px;
+    align-items: center;
+
+}
+
+
+#map {
+    height: 95%;
+    border-radius: 50px;
+}
+
+
+h1 {
+    color: white;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 2px 2px 8px #818181;
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    padding: 2%;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+
+#video_a {
+    width: 100%;
+    height: auto;
+    animation: shake 0.8s ease-in-out infinite;
+    /*z-index: 100000;*/
+}
+
+
+.video_container {
+    animation: spin 10s linear infinite;
+}
+
+
+.video_container video {
+    z-index: 100000;
+
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes shake {
+    from, to {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+
+button {
+    background-color: black;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
